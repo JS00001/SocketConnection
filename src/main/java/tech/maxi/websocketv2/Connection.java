@@ -25,11 +25,11 @@ public class Connection extends WebSocketClient {
     @Override
     public void onClose(int i, String s, boolean b) {
         System.out.println("[WebSocket] Connection Closed. Reconnecting...");
-        this.reconnect();
     }
 
     @Override
     public void onError(Exception e) {
         System.out.println("[WebSocket] Error Occurred");
+        System.out.println(e);
     }
 }

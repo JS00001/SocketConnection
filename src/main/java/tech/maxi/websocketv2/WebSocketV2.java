@@ -20,7 +20,7 @@ public final class WebSocketV2 extends JavaPlugin {
             ws.connect();
             this.registerEvents();
             this.registerCommands();
-        } catch(URISyntaxException e) {}
+        } catch(URISyntaxException ignored) {}
     }
 
     private void registerEvents() {
