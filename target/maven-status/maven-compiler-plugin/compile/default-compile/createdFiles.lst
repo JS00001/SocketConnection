@@ -1,0 +1,5 @@
+tech\maxi\websocketv2\WebSocketV2.class
+tech\maxi\websocketv2\Commands.class
+tech\maxi\websocketv2\Connection.class
+tech\maxi\websocketv2\PlayerDeathEvent.class
+tech\maxi\websocketv2\BukkitEvents.class

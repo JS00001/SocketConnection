@@ -1,0 +1,16 @@
+name: WebSocketV2
+version: 2
+main: tech.maxi.websocketv2.WebSocketV2
+api-version: 1.16
+prefix: WebSocket
+authors: [ jsenyitko ]
+website: https://jsenyitko.tech
+commands:
+  death:
+    description: View last death
+  ping:
+    description: Ping location
+  tp:
+    description: Teleport to somebody
+  name:
+    description: Rename an item
